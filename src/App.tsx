@@ -1,5 +1,6 @@
 import React from 'react';
-import { TodoInsert, TodoList } from './components'
+import { TodoList, TodoInsert } from './components'
+
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
       <TodoInsert />
       <TodoList />
-    </>
+    </>  
   );
 }
 
